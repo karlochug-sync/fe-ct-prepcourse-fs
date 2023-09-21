@@ -10,7 +10,7 @@ function esPositivo(num) {
    // Tu código:
    if(num > 0){
       return 'Es positivo'; 
-   }else if(num > 0){
+   }else if(num < 0){
       return 'Es negativo' ;
    }else{
       return false;
@@ -30,7 +30,7 @@ function combinarNombres(nombre, apellido) {
    // Retorna "nombre" y "apellido" combinados en un mismo string pero separados por un espacio.
    // Ejemplo: ("Soy", "Henry") ---> "Soy Henry"
    // Tu código:
-   return nombre +" "+apeliido;
+   return nombre +" "+ apellido;
 
 }
 
@@ -38,7 +38,7 @@ function obtenerSaludo(nombre) {
    // Toma el string "nombre" y concatena otra string en la cadena para que tome la siguiente forma:
    // Ejemplo: "Martin" ---> "Hola Martin!"
    // Tu código:
-return "hola "+ nombre;
+return "Hola "+ nombre + "!";
 
 }
 
