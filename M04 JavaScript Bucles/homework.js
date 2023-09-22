@@ -82,7 +82,7 @@ function colors(color) {
    // Si no es ninguno de esos colores           --> "Color not found".
    // IMPORTANTE: utilizar el statement SWITCH.
    // Tu código:
-   switch (idioma){
+   switch (color){
       case "blue" :
          return ("This is blue");
          break;
@@ -95,7 +95,7 @@ function colors(color) {
       case "orange" :
          return ("This is orange");
          break;            
-      default:
+      default :
          return("Color not found");
          break;
    }
@@ -132,7 +132,7 @@ function esEntero(num) {
    // Ejemplo: (-10) ---> true
    // De lo contrario, retorna false.
    // Tu código:
-   if(num >= 1 || num < 0){
+   if(num >= 1 || num < 0 || num == 0){
       return true ;
    }else{
       return false;
@@ -147,14 +147,14 @@ function fizzBuzz(num) {
    // Tu código:
    if((num % 3 === 0 )&&(num%5===0)) {
        
-      return 'Fizz Buzz';
+      return 'fizzbuzz';
       }if(num % 3 === 0 ){
          
-       return 'Fizz'
+       return 'fizz'
 
          } if(num % 5 === 0  ){
           
-            return 'Buzz'
+            return 'buzz'
          }else{
            return false;
          }
