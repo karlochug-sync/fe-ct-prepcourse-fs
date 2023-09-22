@@ -5,13 +5,13 @@ function obtenerMayor(x, y) {
    // Retornar el número más grande.
    // Si son iguales, retornar cualquiera de los dos.
    // Tu código:
-   if ( x.isInteger && y.isInteger && x > y){
+   if ( (x > y) ){
       return x;
-     }else if (x.isInteger && y.isInteger && x < y){
+     }else if (x < y){
         return y;
-        }else if(x.isInteger && y.isInteger && x==y){
+        }else if( x==y){
             return y;
-        }   
+        }     
 }
 
 function mayoriaDeEdad(edad) {
@@ -20,9 +20,9 @@ function mayoriaDeEdad(edad) {
    // Caso contrario: "Not allowed".
    // Tu código:
    if ((edad >= 18)){
-      return 'allowed';
+      return 'Allowed';
    }  else if ((edad < 18)){
-        return ('not allowed');
+        return ('Not allowed');
    }
 }
 
@@ -34,16 +34,18 @@ function conection(status) {
    // Retornar el estado de conexión del usuario.
    // Tu código:
    switch (status){
-      case status == 1 :
-         return ("Online",status);
+      case 1 :
+         return ("Online");
          break;
-      case status == 2 :
-         return ("Away",status);
+      case 2 :
+         return ("Away");
          break;
       default:
-         return("offline");
+         return("Offline");
          break;
    }
+
+ 
 
 
 }
@@ -56,13 +58,13 @@ function saludo(idioma) {
    // Si "idioma" no es ninguno de los anteriores o es `undefined` devuelve "Hola!".
    // Tu código:
    switch (idioma){
-      case idioma == "aleman" :
+      case "aleman" :
          return ("Guten Tag!");
          break;
-      case idioma == "mandarin" :
+      case "mandarin" :
          return ("Ni Hao!");
          break;
-      case idioma == "ingles" :
+      case "ingles" :
          return ("Hello!");
          break;      
       default:
@@ -81,16 +83,16 @@ function colors(color) {
    // IMPORTANTE: utilizar el statement SWITCH.
    // Tu código:
    switch (idioma){
-      case idioma == "blue" :
+      case "blue" :
          return ("This is blue");
          break;
-      case idioma == "red" :
+      case "red" :
          return ("This is red");
          break;
-      case idioma == "green" :
+      case "green" :
          return ("This is green");
          break;      
-      case idioma == "orange" :
+      case "orange" :
          return ("This is orange");
          break;            
       default:
@@ -130,7 +132,7 @@ function esEntero(num) {
    // Ejemplo: (-10) ---> true
    // De lo contrario, retorna false.
    // Tu código:
-   if(num.isInteger > 0 || num.isInteger < 0){
+   if(num >= 1 || num < 0){
       return true ;
    }else{
       return false;
