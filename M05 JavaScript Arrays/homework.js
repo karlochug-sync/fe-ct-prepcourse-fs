@@ -199,7 +199,7 @@ function tablaDelSeis() {
      resultados.push(resultado);
      tabladel6.push(["6 x "+ i + " = " + resultado]);
    }
- console.log(tabladel6);
+
    return resultados;
   
 }
