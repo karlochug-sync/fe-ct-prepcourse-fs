@@ -196,7 +196,7 @@ function tablaDelSeis() {
    for (var i = 0; i <= 10; i++) {
      var resultado = 6 * i;
      resultados.push(resultado);
-     console.log("6 x " + i + " = " + resultado);
+     //console.log("6 x " + i + " = " + resultado);
    }
  
    return resultados;
