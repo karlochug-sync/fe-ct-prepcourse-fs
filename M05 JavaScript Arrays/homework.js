@@ -236,7 +236,21 @@ function breakStatement(num) {
    // la ejecución y retornar el string: "Se interrumpió la ejecución".
    // [PISTA]: utiliza el statement 'break'.
    // Tu código:
+   var numeroGuardado = [] ;
+     var i=0;
+     var sum = num;
 
+
+     for(let i = 0; i <= 9; i++){
+
+        sum += 2;
+        numeroGuardado.push(sum);
+        if ((sum == i)){
+            return ("Se interrumpio la ejecucion");
+           break;}
+     }
+     
+return numeroGuardado;
 
 }
 
@@ -247,6 +261,21 @@ function continueStatement(num) {
    // se continua con la siguiente iteración.
    // [PISTA]: utiliza el statement 'continue'.
    // Tu código:
+   var numeroGuardado = [] ;
+   var i=0;
+   var sum = num;
+
+
+   for(let i = 0; i <= 9; i++){
+     console.log(sum += 2);
+     
+      if ((sum == 5)){
+         continue;   
+    }else{
+
+    numeroGuardado.push(sum);}
+   }   
+return numeroGuardado;
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
