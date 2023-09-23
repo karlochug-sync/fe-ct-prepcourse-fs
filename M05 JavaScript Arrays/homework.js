@@ -222,7 +222,7 @@ function mayorACien(array) {
    
    }
    
-   return ('mayoresDeCien');
+   return (mayoresCien);
 }
 
 /* ----------------------------------------------------------------------------------
