@@ -42,7 +42,8 @@ function agregarItemAlComienzoDelArray(array, elemento) {
    // Agrega el "elemento" al comienzo del arreglo recibido.
    // Retorna el arreglo.
    // Tu código:
-   return array.unshift(elemento);
+   array.unshift(elemento);
+   return (array);
 }
 
 function dePalabrasAFrase(palabras) {
@@ -71,8 +72,8 @@ function agregarNumeros(arrayOfNums) {
    // Suma todos los elementos y retorna el resultado.
    // Tu código:
    var sum = 0;
-   for (let i = 0; i <= array.length-1; i++){
-       sum = sum + array[i];
+   for (let i = 0; i <= arrayOfNums.length-1; i++){
+       sum = sum + arrayOfNums[i];
   }
   return sum;
  }
@@ -94,8 +95,7 @@ function numeroMasGrande(arrayOfNums) {
    // El parámetro "arrayOfNums" es un arreglo de números.
    // Retornar el número más grande.
    // Tu código:
-   arrayOfNums.sort();
-   return arrayOfNums[arrayOfNums.length - 1];
+ return Math.max(...arrayOfNums);
 }
 
 function multiplicarArgumentos() {
