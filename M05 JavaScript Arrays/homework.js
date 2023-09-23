@@ -246,7 +246,7 @@ function breakStatement(num) {
         sum += 2;
         numeroGuardado.push(sum);
         if ((sum == i)){
-            return ("Se interrumpio la ejecucion");
+            return ("Se interrumpió la ejecución");
            break;}
      }
      
