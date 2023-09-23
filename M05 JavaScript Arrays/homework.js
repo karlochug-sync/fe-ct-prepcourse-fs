@@ -215,9 +215,9 @@ function mayorACien(array) {
    // Tu código:
    var mayoresCien = [];
 
-   for (i = 0; i < miArray.length; i++) {
-   if (miArray[i] >= 101){
-      mayoresCien.push(miArray[i]);
+   for (i = 0; i < array.length; i++) {
+   if (array[i] >= 101){
+      mayoresCien.push(array[i]);
    }
    
    }
