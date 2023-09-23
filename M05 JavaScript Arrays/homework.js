@@ -267,7 +267,7 @@ function continueStatement(num) {
 
 
    for(let i = 0; i <= 9; i++){
-     console.log(sum += 2);
+     sum += 2;
      
       if ((sum == 5)){
          continue;   
