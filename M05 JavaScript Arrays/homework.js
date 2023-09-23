@@ -160,10 +160,10 @@ function todosIguales(array) {
    // Caso contrario retornar false.
    // Tu código:
      
-   var primerElemento = arr[0];
+   var primerElemento = array[0];
     
-   for (var i = 1; i < arr.length; i++) {
-     if (arr[i] !== primerElemento || arr[i]===null) {
+   for (var i = 1; i < array.length; i++) {
+     if (array[i] !== primerElemento || array[i]===null) {
        return false; 
      }
    }
