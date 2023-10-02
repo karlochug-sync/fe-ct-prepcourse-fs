@@ -24,7 +24,7 @@ function nuevoUsuario(nombre, email, password) {
    // Tu código:
    var usuario={nombre:nombre,
                email:email,
-               passwrd:password};
+               password:password};
 
       return usuario;
 }
