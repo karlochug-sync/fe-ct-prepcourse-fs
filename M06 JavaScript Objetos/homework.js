@@ -9,7 +9,7 @@ function crearGato(nombre, edad) {
    // Tu código:
    var gato = {nombre:nombre,
                edad : edad,
-               maow : function(){
+               meow : function(){
                   return 'Meow!';
                }   
             };
