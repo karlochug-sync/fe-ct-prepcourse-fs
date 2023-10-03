@@ -158,6 +158,8 @@ function sumarLikesDeUsuario(objetoUsuario) {
             sumPosts = sumPosts + postTotal[i].likes;
 
       }
+
+      
       return sumPosts;
    }
 
