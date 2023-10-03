@@ -159,7 +159,8 @@ function sumarLikesDeUsuario(objetoUsuario) {
 
       }
 
-      
+
+
       return sumPosts;
    }
 
@@ -188,10 +189,9 @@ function agregarMetodoCalculoDescuento(objetoProducto) {
   };
 
   // Llamar al método calcularPrecioDescuento y retornar el resultado
-  var precioFin = objetoProducto.calcularPrecioDescuento();
+  return objetoProducto.calcularPrecioDescuento();
 
-  return precioFin;
-}
+ 
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
